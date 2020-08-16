@@ -1,0 +1,6 @@
+<alumnos>
+	<alumno edad="20" carne="201902138" semestre="4" nota="75" />
+	<alumno edad="22" carne="201802137" semestre="5" nota="70" />
+	<alumno edad="25" carne="201502136" semestre="9" nota="80" />
+	<alumno edad="25" carne="201502135" semestre="9" nota="80" />
+</alumnos>

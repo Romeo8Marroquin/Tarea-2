@@ -1,0 +1,17 @@
+﻿from xml.dom import minidom
+documento = minidom.parse("alumnos.xml")
+alumnos = documento.getElementsByTagName("alumno")
+print(" ")
+print("Datos XML:")
+print(type(documento))
+for alumno in alumnos:
+    edad = alumno.getAttribute("edad")
+    carne = alumno.getAttribute("carne")
+    semestre = alumno.getAttribute("semestre")
+    nota = alumno.getAttribute("nota")
+    print(" ")
+    print("Edad: ", edad)
+    print("Carné: ", carne)
+    print("Semestre: ", semestre)
+    print("Nota: ", nota)
+print(" ")
